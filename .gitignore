@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+data/
+*.pt
+training_curves.png
+training_history.json
+.DS_Store
