@@ -1,6 +1,6 @@
 # Mini-GPT training experiment (coursework, Part 2)
 
-This is the training half of a two-part learning project. [Part 1](https://github.com/jiabeiliu/Assignment-1) prepares text into GPT-2 token-ID blocks; this repository contains an exploratory decoder-only Transformer notebook with causal self-attention, training/validation loops, perplexity, and checkpoints. It is a **small educational experiment**, not a general-purpose foundation model.
+This is the training half of a two-part learning project. [Part 1](https://github.com/jiabeiliu/mini-transformer-text-preprocessing) prepares text into GPT-2 token-ID blocks; this repository contains an exploratory decoder-only Transformer notebook with causal self-attention, training/validation loops, perplexity, and checkpoints. It is a **small educational experiment**, not a general-purpose foundation model.
 
 ## Connect Part 1 to Part 2
 
@@ -11,7 +11,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
 mkdir -p data
-cp ../Assignment-1/data/processed/tokenized_blocks.pt data/tokenized_blocks.pt
+cp ../mini-transformer-text-preprocessing/data/processed/tokenized_blocks.pt data/tokenized_blocks.pt
 jupyter notebook Untitled7.ipynb
 ```
 
